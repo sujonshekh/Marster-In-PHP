@@ -32,7 +32,7 @@ printf("His %s name is %s %s","Full",$fname,$lname);
 //1. BODMAS = BRACKET, OR, DIVISION, MULTI, ADDITION, SUB.
 //2. Arithmatic operator = +, -, /, %, *
 //3. Operand is = 2,3,4
-//4. ++ Assign increasing factor
+//4. $n++ Assign increasing factor not before but ++$n is increasing number before
 echo "\n";
  $n = 5;
  $m = $n++;

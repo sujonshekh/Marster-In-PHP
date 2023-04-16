@@ -24,9 +24,21 @@ for($t = 10, $v = 1; $t > 0; $t--, $v++){
 // Nested loop
 echo "\n";
 
-// for ($a = 1; $a <=100; $a+=10){
-//     for ($b = $a; $b < $a+10; $b++){
-//         echo $b.' ';
-//     }
+for ($a = 1; $a <=100; $a+=10){
+    for ($b = $a; $b < $a+10; $b++){
+        echo $b.' ';
+    }
  
-// }
+}
+
+for ($l =1; $l <= 10; $l++){
+    if(3 == $l){
+        echo "No: ".$l;
+        echo "\n";
+        continue;
+      
+        
+    }
+    echo "Number: ".$l;
+    echo "\n";
+}

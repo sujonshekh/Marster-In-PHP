@@ -51,3 +51,13 @@ for ($r = $fnum, $factorial = 1; $r > 1; $r--){
    $factorial*=$r;
 }
 printf("Factorial Number %d is %d",$fnum,$factorial);
+echo "\n";
+echo "\n";
+ 
+
+$result = 1;
+
+for ($fc=1; $fc<=10; $fc++){
+    $result*=$fc;
+    echo "Factorial of {$fc} is {$result} \n";
+}

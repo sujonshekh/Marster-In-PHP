@@ -28,7 +28,7 @@ for ($a = 1; $a <=100; $a+=10){
     for ($b = $a; $b < $a+10; $b++){
         echo $b.' ';
     }
- 
+ echo "\n";
 }
 
 for ($l =1; $l <= 10; $l++){
@@ -42,3 +42,12 @@ for ($l =1; $l <= 10; $l++){
     echo "Number: ".$l;
     echo "\n";
 }
+
+echo "\n";
+// Factorial
+$fnum = 7;
+
+for ($r = $fnum, $factorial = 1; $r > 1; $r--){
+   $factorial*=$r;
+}
+printf("Factorial Number %d is %d",$fnum,$factorial);

@@ -6,3 +6,12 @@ function factorial(int $n){
   }
   return $result;
 }
+
+
+//3)
+function sum($math,$eng,$sc){
+  $s = $math + $eng + $sc;
+  return $s;
+}
+
+

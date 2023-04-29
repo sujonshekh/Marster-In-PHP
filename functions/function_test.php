@@ -17,5 +17,10 @@ echo "\n";
       $per = $st/3;
       echo $per . "%";
   }
-  
+
   percentage($total);
+  echo "\n";
+  $ft = "tea";
+
+
+  serve($ft);

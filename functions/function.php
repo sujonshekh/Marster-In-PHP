@@ -14,4 +14,8 @@ function sum($math,$eng,$sc){
   return $s;
 }
 
+// serve function
 
+function serve($foodType="Coffee",$numOfItems="1 cups"){
+          echo "{$foodType} is served {$numOfItems}";
+}

@@ -34,3 +34,15 @@ function Unsummation (int ...$numbers):int{
       }
       return $results;
 }
+
+// 7) Recursive Function
+
+function recursive ($start,$end){
+  if($start>$end){
+
+  }
+  echo $start."\n";
+  $start++;
+  recursive($start,$end);
+}
+recursive(5,20);

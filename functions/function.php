@@ -39,7 +39,7 @@ function Unsummation (int ...$numbers):int{
 
 function recursive ($start,$end){
   if($start>$end){
-
+    return;
   }
   echo $start."\n";
   $start++;

@@ -35,6 +35,10 @@ echo summation(40,50,60);
 echo "\n";
  echo Unsummation(10,20,30,40,50,60);
 
+//  7) Factorial 
+echo "\n";
+echo fac(6);
+
  
  
  

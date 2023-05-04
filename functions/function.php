@@ -46,3 +46,12 @@ function recursive ($start,$end){
   recursive($start,$end);
 }
 recursive(5,20);
+
+// 8) Factorial
+
+function fac ($fn){
+      if($fn <= 1){
+        return 1;
+      }
+      return $fn* fac($fn-1);
+    }

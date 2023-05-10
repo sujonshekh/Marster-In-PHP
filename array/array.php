@@ -1,5 +1,5 @@
 <?php 
-
+// assosiative array
 $age =[
     "sujon" => 29,
     "saima" => 19,

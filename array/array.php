@@ -9,7 +9,10 @@ $age =[
 
 $age ["sujon"] = 30;
 
-var_dump($age);
+// var_dump($age);
+foreach ($age as $key => $value){
+    echo "$key = $value \n";
+}
 
 // push pop, shift, inshift...
 

@@ -13,6 +13,11 @@ function sum($math,$eng,$sc){
   $s = $math + $eng + $sc;
   return $s;
 }
+ //4)
+ function percentage($st){
+  $per = $st/3;
+  echo $per . "%";
+}
 
 //4) serve function
 

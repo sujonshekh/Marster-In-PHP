@@ -12,11 +12,6 @@ echo "\n";
   echo $total;
   
   
-  //4)
-  function percentage($st){
-      $per = $st/3;
-      echo $per . "%";
-  }
   percentage($total);
   
   
